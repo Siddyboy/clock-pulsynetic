@@ -18,9 +18,11 @@ The three screws that attach the face to the case are specially filed. Metric?
 
 ## Existing retrofit electronics
 
-Clock has bee fitted with 2 off battery holders for D or C cells (TBC).
+Clock has been fitted with 2 off battery holders for C cells in series. When existing circuit is run the batteries are only enough to run for a few hours.
 
-There are two push buttons but not certain what they do.
+There are two push buttons:
+- LH button produces instant pulse to advance clock one 'tick' (30 s i think)
+- RH button doesn't appear to do anything - could be a pause button to allow 'time' to catch up?
 
 Control circuit has one DIL IC = PIC16F84-04/P 0119H7A, a transistor 2N3053 90 08, and another transistor(?) CBC549 8.
 
