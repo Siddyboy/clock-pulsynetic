@@ -1,6 +1,7 @@
-# clocksol
-Solonoid Operated Clock
+# Pulsynetic Clock Project
 
-A project to power up CJCK's solenoid operated wall clock.
+A project to rebuild the 'Edward Glasgow 3' solonoid operated clock inherited from CJCK.
 
-Solenoid needs to be fired every 15 seconds to drive the mechanical clock mechanism.
+Currently driven using a PIC and an oscillator.
+
+Change to use arduino and possibly an RTC.
