@@ -1,6 +1,6 @@
 # Notes on Original Clock
 
-Notes about original clock or as inherited from CJCK.
+Notes about original clock or as inherited from CJCK. CJCK may have been responsible for the hardware but not sure who was the software guru; possibly a mate from college.
 
 ## Original Clock Details
 
@@ -18,6 +18,8 @@ The three screws that attach the face to the case are specially filed. Metric?
 
 ## Existing retrofit electronics
 
+See scanned circuit diagrams.
+
 Clock has been fitted with 2 off battery holders for C cells in series. When existing circuit is run the batteries are only enough to run for a few hours. A second attempt produced no response at all. Broken?
 
 There are two push buttons:
@@ -26,8 +28,20 @@ There are two push buttons:
 
 Both buttons pull their relative connections on the main circuit board low assuming that they are push-to-make buttons.
 
-Control circuit has one DIL IC = PIC16F84-04/P 0119H7A, a transistor 2N3053 90 08, and another transistor(?) CBC549 8.
+## Component List
 
-There is some sort of crystal oscillator too.
+| Component | Specification                |
+|-----------|------------------------------|
+| C1        | 1000 <span>&mu;</span>F 10 V |
+| C2        | = C1                         |
+| C3        | "n165F"? 400 V               |
+| C4        | = C3                         |
+| D1        | Not sure "100..."?           |
+| IC1       | PIC16F84-04P 0119H7A         |
+| OSC       | KDS2A                        |
+| R1        | 3K3                          |
+| R2        | 10K0                         |
+| R3        | = R2                         |
+| T1        | 2N3053 90 08                 |
+| T2        | CBC549B                      |
 
-Full circuit TBD.
